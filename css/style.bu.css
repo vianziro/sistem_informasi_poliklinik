@@ -1,0 +1,344 @@
+@font-face{
+	font-family: "DroidSans";
+	src: url("../fonts/DroidSans.ttf");
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "DroidSansBold";
+	src: url("../fonts/DroidSans-Bold.ttf");
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Roboto";
+	src: url("../fonts/Roboto.ttf");
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans.ttf");
+	font-style: normal;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "DroidSans";
+}
+
+body{
+	background-color: #F0F0F0;
+}
+
+nav{
+	width: 100%;
+	padding: 10px 0;
+	height: 30px;
+	/*background-color: #13B358;*/
+	background-color: #269860;
+	position: fixed;
+	z-index: 5;
+	box-shadow: 0 2px 10px #555;
+}
+
+.logo-kcl{
+	width: 30px;
+	height: 30px;
+	float: left;
+	padding-left: 10px;
+}
+
+nav h3{
+	font-size: 20px;
+	line-height: 30px;
+	float: left;
+	margin-left: 20px;
+	color: #FFF;
+}
+
+#cari{
+	float: right;
+	margin-right: 10px;
+	height: 30px;
+}
+
+#cari form{
+	height: 30px;
+}
+
+#menu{
+	width: 200px;
+	background-color: #FFF;
+	float: left;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	top: 0;
+}
+
+#banner{
+	width: 100%;
+	background-color: #269850;
+	height: 100px;
+	margin-top: 50px;
+	color: #FFF;
+}
+
+.img-usr-md{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	float: left;
+	margin: 20px 20px 20px 15px;
+	cursor: pointer;
+}
+
+#banner p{
+	font-size: 16px;
+	float: left;
+	margin-top: 20px;
+	width: 50%;
+}
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+#menu li a{
+	color: #000;
+	font-size: 18px;
+	width: 90%;
+	padding: 10px 5%;
+	float: left;
+	background-color: #FFF;
+}
+
+#menu li a:hover{
+	background-color: #269850;
+	color: #FFF;
+}
+
+#usr-menu{
+	width: 150px;
+	background-color: #FFF;
+	position: absolute;
+	left: 85px;
+	top: 60px;
+	height: 80px;
+	border-radius: 5px;
+	z-index: 5;
+}
+
+#usr-menu:before{
+	content: " ";
+	position: absolute;
+	border-top: 7px solid transparent;
+	border-bottom: 7px solid transparent;
+	border-right: 8px solid #FFF;
+	left: -7px;
+	top: 33px;
+}
+
+#usr-menu a{
+	text-align: center;
+	font-size: 15px;
+	width: 100%;
+	line-height: 20px;
+	padding: 10px 0;
+	float: left;
+}
+
+#content{
+	width: 85%; 
+	float: left;
+	/* position: absolute; */
+	/* top: 100px; */
+	/*right: 0;*/
+	background-color: #F0F0F0;
+	margin: 50px 0 0 200px;
+}
+
+#isinya{
+	width: 94%;
+	padding: 3%;
+}
+
+table{
+	min-width: 50%;
+	border-collapse: collapse;
+	border-radius: 5px;
+}
+
+tr{
+	border-bottom: 1px solid #555;
+}
+
+th{
+	padding: 5px;
+	font-size: 20px;
+	background-color: #DDD;
+}
+
+td{
+	padding: 5px;
+	font-size: 18px;
+}
+
+#tambah{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	background-color: #269850;
+	color: #FFF;
+	font-size: 40px;
+	text-align: center;
+	box-shadow: 3px 3px 4px #555;
+}
+
+.ipt-text{
+	background-color: #FFF;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: 20px;
+	height: 28px;
+	width: 178px;
+	padding: 0 10px;
+	border: 1px solid #555;
+}
+
+.sbt-btn{
+	background-color: #307d51;
+	font-size: 16px;
+	line-height: 20px;
+	height: 30px;
+	padding: 0 10px;
+	border: 1px solid #FFF;
+	color: #FFF;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.sbt-btn:hover{
+	color: #307d51;
+	border: 1px solid #307d51;
+	background-color: #FFF;
+}
+
+select{
+	background-color: #FFF;
+	font-size: 16px;
+	line-height: 20px;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	border: 1px solid #555;
+	border-radius: 5px;
+	padding: 3px;
+	width: 200px;
+}
+
+#aha{
+	
+}
+
+#lgn-form{
+	background-color: #54A2ED;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#login-form{
+	margin: 10% auto;
+	background-color: #FFF;
+	width: 300px;
+	height: 410px;
+	background-color: #FFF;
+	border-radius: 5px;
+}
+
+#ipt-cr{
+	font-size: 16px;
+	color: #FFF;
+	background-color: transparent;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid #FFF;
+	line-height: 20px;
+	height: 28px;
+	width: 200px;
+	position: relative;
+	top: -10px;
+}
+
+#sbt-cari{
+	border: none;
+	background-color: #FFF;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background-image: url("../images/search.png");
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: 2px;
+}
+
+.logo-entah{
+	width: 180px;
+	height: 180px;
+	margin: 30px 60px;
+}
+
+#login-form h2{
+	text-align: center;
+}
+
+.ipt-lgn{
+	margin: 0 30px 10px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: 2px solid #54A2ED;
+	font-size: 17px;
+	padding: 4px 5px;
+	line-height: 20px;
+	width: 230px;
+}
+
+.sbt-lgn{
+	background-color: #54A2ED;
+	font-size: 16px;
+	color: #FFF;
+	line-height: 20px;
+	border: 1px solid #54A2ED;
+	border-radius: 5px;
+	height: 30px;
+	width: 240px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+
+.sbt-lgn:hover{
+	background-color: #FFF;
+	color: #54A2ED;	
+	transition: 0.5s background-color ease-in;
+}
+
+#bacalah{
+	margin: 20px auto;
+	color: #348DE4;
+	cursor: crosshair;
+}
